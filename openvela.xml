@@ -7,6 +7,7 @@
 
   <project path="apps" name="nuttx-apps"/>
   <!-- mquickjs js builtin (SDK: github.com/pengyz/mquickjs-rs-sdk) -->
+  <project path="external/mquickjs-rs-sdk" name="mquickjs-rs-sdk" remote="pengyz" revision="master"/>
   <project path="apps/system/mqjs" name="mquickjs-openvela" remote="pengyz" revision="main"/>
   <project path="apps/benchmarks/coremark/coremark" name="apps_benchmarks_coremark"/>
   <project path="apps/benchmarks/test-tlb/test-tlb" name="apps_benchmarks_test-tlb"/>
